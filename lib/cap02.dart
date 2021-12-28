@@ -202,7 +202,7 @@ quadradoNumero(int numero) => pow(numero, 2);
   Creating classes and using the class constructor shorthand
  */
 
-//STOP
+//STOP -> os estudos sobre class estão no arquivo cap02_classes.dart
 
 
 
