@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'immutable_widget.dart';
 import 'tela_menu_lateral.dart';
 import 'text_layout.dart';
-
+import 'cap04_perfil.dart';
 
 class TelaBasica extends StatelessWidget {
 
@@ -34,7 +34,7 @@ class TelaBasica extends StatelessWidget {
       ),
 
       drawer: Drawer(
-        child: MenuLateral(),
+        child: TelaDePerfil(),
       ),
     );
   }
