@@ -1,6 +1,6 @@
 
 
-import 'dart:ui';
+//import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
@@ -42,7 +42,7 @@ class TelaDePerfil extends StatelessWidget {
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text('Cachorro Ney',
+        const Text('Cachorro Ney',
         style: TextStyle(fontSize: 35, fontWeight: FontWeight.w600),
         ),
         _buildDetailsRow('Idade', '4'),
